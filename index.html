@@ -41,8 +41,23 @@
         <section>
             <h2>hello kitty form</h2>
             <form action=http://localhost:52330/html-hello%20kitty%20photo%20app/index.html>
-                <input type="radio"> My 
-                <input required type="text" placeholder="hello kitty URL" name="hello-kitty-url">
-                <button type="submit"> Submit </button>
+               
+                <fieldset>
+                    <legend>is your hello kitty an indoor or outdoor cat?</legend>
+                <label><input type ="radio" name="indoor-outdoor" value="indoor"> indoor <label>
+                    <label><input type="radio" name="indoor-outdoor" value="outdoor">outdoor</label> 
+                </fieldset>
+                <fieldset>
+                <legend> what type of cat is she, and what's her name?</legend>
+                 <input required type="text" placeholder="hello kitty cat type" name="hello-kitty-cat-type">
+               <button type ="submit"> submit </button>
+               <input required type="text" placeholder="their name" name="hello-kitty-name">
+               <button type ="submit"> submit </button>
+                </fieldset>
+                <fieldset>
+                    <legend>Does she like to play?</legend>
+                    <label><input type="checkbox"> Yes</label>
+                    <label><input type="checkbox"> No</label> 
+
             </form>
         </section>
